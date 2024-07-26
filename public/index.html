@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ManoInvoiceOrganizer</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f9;
+			color: #333;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			flex-direction: column;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		h1 {
+			color: #2c3e50;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+
+		p {
+			max-width: 600px;
+			text-align: justify;
+			margin-bottom: 20px;
+			line-height: 1.6;
+		}
+
+		textarea {
+			width: 100%;
+			max-width: 800px;
+			height: 200px;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			font-size: 16px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+		}
+
+		button {
+			background-color: #3498db;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+			transition: background-color 0.3s ease;
+		}
+
+		button:hover {
+			background-color: #2980b9;
+		}
+
+		@media (max-width: 600px) {
+			h1 {
+				font-size: 24px;
+			}
+
+			p {
+				font-size: 14px;
+			}
+
+			textarea {
+				font-size: 14px;
+				height: 150px;
+			}
+
+			button {
+				font-size: 14px;
+				padding: 8px 16px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>ManoInvoiceOrganizer</h1>
+	<p>
+		Description : ManoInvoiceOrganizer est un outil conçu pour aider les conseillers de ManoMano à trier et organiser les factures chaotiques, facilitant ainsi leur utilisation dans le cadre de procès au prud'homme. Le programme permet de convertir des textes bruts contenant les données du tableau Workbench en un fichier CSV bien structuré et organisé par date, avec des totaux annuels calculés automatiquement.
+	</p>
+	<p>
+		<strong>Comment utiliser ManoInvoiceOrganizer :</strong><br>
+		1. <strong>Connexion à Workbench :</strong> Connectez-vous à votre compte ManoMano sur la plateforme Workbench.<br>
+		2. <strong>Sélection des factures :</strong> Sélectionnez avec votre souris tout le tableau où sont affichées vos factures. Ce tableau comprend les champs : Date, Référence, Valeur, État du paiement, et même Télécharger la facture. Bien que les deux derniers champs ne seront pas pris en compte, il est plus simple de copier l'ensemble du tableau.<br>
+		3. <strong>Navigation entre les pages :</strong> Cliquez sur la petite flèche en bas de la page pour passer à la page suivante des factures. Le texte restera sélectionné, mais ce sont les valeurs de la deuxième page qui s'afficheront.<br>
+		4. <strong>Copie et collage :</strong> Copiez le contenu sélectionné (Ctrl+C ou Cmd+C). Accédez à l'interface web de ManoInvoiceOrganizer. Collez le contenu dans la zone de texte prévue à cet effet (Ctrl+V ou Cmd+V).<br>
+		5. <strong>Répétition de l'opération :</strong> Répétez l'opération de sélection, copie et collage pour toutes les pages de factures afin d'avoir toutes les données dans la zone de texte.<br>
+		6. <strong>Génération du CSV :</strong> Une fois toutes les pages copiées et collées, cliquez sur le bouton "Convertir en CSV". Un tableau au format CSV sera généré. Ce tableau comprendra le montant, la référence et la date de chaque facture, ainsi que la somme totale des factures pour chaque année.
+	</p>
+	<textarea id="inputText" rows="20" cols="100" placeholder="Collez ici les données du tableau Workbench contenant les dates, références et montants des factures..."></textarea><br>
+	<button onclick="convertToCSV()">Convertir en CSV</button>
+
+	<script src="script.js"></script>
+</body>
+</html>
