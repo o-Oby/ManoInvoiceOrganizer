@@ -1,6 +1,3 @@
-### README.md
-
-```markdown
 # ManoInvoiceOrganizer
 
 ManoInvoiceOrganizer est un outil conçu pour aider les conseillers de ManoMano à trier et organiser les factures chaotiques, facilitant ainsi leur utilisation dans le cadre de procès au prud'homme. Le programme permet de convertir des textes bruts contenant les données du tableau Workbench en un fichier CSV bien structuré et organisé par date, avec des totaux annuels calculés automatiquement.
@@ -28,7 +25,6 @@ ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoM
    ```bash
    git clone https://github.com/votreutilisateur/ManoInvoiceOrganizer.git
    cd ManoInvoiceOrganizer
-   ```
 
 2. Installez les dépendances :
    ```bash
@@ -69,9 +65,3 @@ ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoM
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 ```
-
-### Notes supplémentaires
-
-- Assurez-vous que les fichiers `index.html` et `script.js` sont correctement placés dans le répertoire `public`.
-- Remplacez `votreutilisateur` par votre véritable nom d'utilisateur GitHub dans l'URL du clone.
-- Ajustez les instructions ou ajoutez des détails spécifiques selon les besoins de votre projet.
