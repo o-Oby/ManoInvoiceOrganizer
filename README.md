@@ -12,7 +12,7 @@ ManoInvoiceOrganizer est un outil conçu pour aider les conseillers de ManoMano 
 
 ## Description
 
-ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoMano à trier et organiser les factures issues de Workbench. Il permet de convertir les données brutes du tableau Workbench en un fichier CSV bien structuré. Le fichier CSV inclut la date, la référence et le montant de chaque facture, ainsi que le total des montants pour chaque année.
+ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoMano à trier et organiser les données de facturation du workbench. Il permet de convertir les données brutes du tableau Workbench en un fichier CSV bien structuré. Le fichier CSV inclut la date, la référence et le montant de chaque facture, ainsi que le total des montants pour chaque année.
 
 ## Prérequis
 
