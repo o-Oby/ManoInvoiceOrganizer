@@ -1,6 +1,6 @@
 # ManoInvoiceOrganizer
 
-ManoInvoiceOrganizer est un outil conçu pour aider les conseillers de ManoMano à trier et organiser les factures chaotiques, facilitant ainsi leur utilisation dans le cadre de procès au prud'homme. Le programme permet de convertir des textes bruts contenant les données du tableau Workbench en un fichier CSV bien structuré et organisé par date, avec des totaux annuels calculés automatiquement.
+ManoInvoiceOrganizer est un outil conçu pour aider les conseillers de ManoMano à trier et organiser leurs données de facturation. Le programme permet de convertir des textes bruts contenant les données du tableau Workbench en un fichier CSV bien structuré et organisé par date, avec des totaux annuels calculés automatiquement.
 
 ## Table des matières
 
