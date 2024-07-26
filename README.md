@@ -1,5 +1,3 @@
-Voici un fichier `README.md` en français pour votre projet :
-
 ### README.md
 
 ```markdown
