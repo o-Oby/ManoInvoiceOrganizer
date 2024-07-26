@@ -64,4 +64,3 @@ ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoM
 ## License
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
-```
