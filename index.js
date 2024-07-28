@@ -11,11 +11,11 @@ const __dirname = path.dirname(__filename);
 
 // Création d'une application express
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 // Options CORS pour autoriser les requêtes provenant d'un domaine spécifique
 const corsOptions = {
-  origin: 'http://iadvize.breizh-connect.com',
+  origin: 'http://127.0.0.1',
   optionsSuccessStatus: 200
 };
 
