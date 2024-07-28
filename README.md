@@ -1,6 +1,6 @@
 # ManoInvoiceOrganizer
 
-ManoInvoiceOrganizer est un outil conçu pour aider les conseillers de ManoMano à trier et organiser leurs données de facturation. Le programme permet de convertir des textes bruts contenant les données du tableau Workbench en un fichier CSV bien structuré et organisé par date, avec des totaux annuels calculés automatiquement.
+ManoInvoiceOrganizer est un outil conçu pour aider les conseillers de ManoMano à trier et organiser leurs données de facturation. Le programme permet de convertir des textes bruts contenant les données du tableau Workbench en un fichier Excel bien structuré et organisé par date, avec des totaux annuels calculés automatiquement.
 
 ## Table des matières
 
@@ -12,7 +12,7 @@ ManoInvoiceOrganizer est un outil conçu pour aider les conseillers de ManoMano 
 
 ## Description
 
-ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoMano à trier et organiser les données de facturation du workbench. Il permet de convertir les données brutes du tableau Workbench en un fichier CSV bien structuré. Le fichier CSV inclut la date, la référence et le montant de chaque facture, ainsi que le total des montants pour chaque année.
+ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoMano à trier et organiser les données de facturation du workbench. Il permet de convertir les données brutes du tableau Workbench en un fichier Excel bien structuré. Le fichier Excel inclut la date, la référence et le montant de chaque facture, ainsi que le total des montants pour chaque année.
 
 ## Prérequis
 
@@ -25,6 +25,7 @@ ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoM
    ```bash
    git clone https://github.com/votreutilisateur/ManoInvoiceOrganizer.git
    cd ManoInvoiceOrganizer
+   ```
 
 2. Installez les dépendances :
    ```bash
@@ -59,8 +60,9 @@ ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoM
    - **Sélection des factures :** Sélectionnez avec votre souris tout le tableau où sont affichées vos factures. Ce tableau comprend les champs : Date, Référence, Valeur, État du paiement, et même Télécharger la facture. Bien que les deux derniers champs ne seront pas pris en compte, il est plus simple de copier l'ensemble du tableau.
    - **Navigation entre les pages :** Cliquez sur la petite flèche en bas de la page pour passer à la page suivante des factures. Le texte restera sélectionné, mais ce sont les valeurs de la deuxième page qui s'afficheront.
    - **Copie et collage :** Copiez le contenu sélectionné (Ctrl+C ou Cmd+C). Accédez à l'interface web de ManoInvoiceOrganizer. Collez le contenu dans la zone de texte prévue à cet effet (Ctrl+V ou Cmd+V). Répétez l'opération pour toutes les pages de factures afin d'avoir toutes les données dans la zone de texte.
-   - **Génération du CSV :** Une fois toutes les pages copiées et collées, cliquez sur le bouton "Convertir en CSV". Un tableau au format CSV sera généré. Ce tableau comprendra le montant, la référence et la date de chaque facture, ainsi que la somme totale des factures pour chaque année.
+   - **Génération du fichier Excel :** Une fois toutes les pages copiées et collées, cliquez sur le bouton "Convertir en Excel". Un fichier Excel structuré et formaté sera généré. Ce tableau comprendra le montant, la référence et la date de chaque facture, ainsi que la somme totale des factures pour chaque année.
 
 ## License
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce projet est sous licence Apache.
+```
