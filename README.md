@@ -23,7 +23,7 @@ ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoM
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votreutilisateur/ManoInvoiceOrganizer.git
+   git clone https://github.com/o-Oby/ManoInvoiceOrganizer.git
    cd ManoInvoiceOrganizer
    ```
 
