@@ -57,12 +57,15 @@ ManoInvoiceOrganizer est un outil web conçu pour aider les conseillers de ManoM
 3. **Utiliser ManoInvoiceOrganizer :**
 
    - **Connexion à Workbench :** Connectez-vous à votre compte ManoMano sur la plateforme Workbench.
+     
    - **Sélection des factures :** Sélectionnez avec votre souris tout le tableau où sont affichées vos factures. Ce tableau comprend les champs : Date, Référence, Valeur, État du paiement, et même Télécharger la facture. Bien que les deux derniers champs ne seront pas pris en compte, il est plus simple de copier l'ensemble du tableau.
+     
    - **Navigation entre les pages :** Cliquez sur la petite flèche en bas de la page pour passer à la page suivante des factures. Le texte restera sélectionné, mais ce sont les valeurs de la deuxième page qui s'afficheront.
+     
    - **Copie et collage :** Copiez le contenu sélectionné (Ctrl+C ou Cmd+C). Accédez à l'interface web de ManoInvoiceOrganizer. Collez le contenu dans la zone de texte prévue à cet effet (Ctrl+V ou Cmd+V). Répétez l'opération pour toutes les pages de factures afin d'avoir toutes les données dans la zone de texte.
+     
    - **Génération du fichier Excel :** Une fois toutes les pages copiées et collées, cliquez sur le bouton "Convertir en Excel". Un fichier Excel structuré et formaté sera généré. Ce tableau comprendra le montant, la référence et la date de chaque facture, ainsi que la somme totale des factures pour chaque année.
 
 ## License
 
 Ce projet est sous licence Apache.
-```
